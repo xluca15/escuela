@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let salario, nsalario;
+        salario = parseFloat(prompt('Ingrese el salario: '));
+        if (salario <= 400){
+            nsalario = salario + salario * 0.15;
+        } else if(salario > 400 && salario <= 800){
+            nsalario = salario + salario * 0.12;
+        } else if(salario > 800 && salario <= 1200){
+            nsalario = salario + salario * 0.10
+        }else if(salario > 1200 && salario <= 2000){
+            nsalario = salario + salario * 0.07
+        }else if(salario> 2000){
+            nsalario = salario + salario * 0.04
+        }
+        let dinwin;
+        dinwin = nsalario - salario;
+        let porcentaje;
+        porcentaje = (dinwin / salario) *100;
+        document.write('Nuevo salario: ' + nsalario.toFixed(2));
+        document.write('<br>');
+        document.write('Dinero ganado: ' + dinwin.toFixed(2));
+        document.write('<br>');
+        document.write('En porcentaje: ' + porcentaje.toFixed(2) + '%');
+    </script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+				
+								
+''
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+					[
+												{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			style: 'cell',
+		
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"","background":"#3CB371","hidden":"{$item_hide_welcome_item}"},
+				
+				
+			{"text":"","background":"#E8926F","hidden":"{$item_hide_welcome_item1}"},
+				
+				
+			{"text":"","background":"#CD853F","hidden":"{$item_hide_welcome_item2}"},
+				
+				
+			{"text":"","background":"#E8926F","hidden":"{$item_hide_welcome_item3}"},
+				
+				
+			{"text":"","background":"#CFAE83","hidden":"{$item_hide_welcome_item4}"},
+				
+				
+			{"text":"","background":"#6493EA","hidden":"{$item_hide_welcome_item5}"},
+				
+				
+			{"text":"","background":"#DAA520","hidden":"{$item_hide_welcome_item6}"},
+				
+				
+			{"text":"","background":"#3CB371","hidden":"{$item_hide_welcome_item7}"},
+				
+				
+			{"text":"","background":"#E07878","hidden":"{$item_hide_welcome_item8}"},
+				
+				
+			{"text":"","background":"#CFAE83","hidden":"{$item_hide_welcome_item9}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+          "alignment": 'left',
+  },
+
+											],
+					]
+	}
+}
+,
+		
+					]
+}
+  

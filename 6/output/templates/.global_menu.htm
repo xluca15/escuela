@@ -1,0 +1,196 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+	</head>
+	<body class="{$stylename} function-menu" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<div class="r-topbar-page">
+			<div data-menu-width="full" 
+				 
+				class="r-topheader" 
+				data-resize-name="topbar"
+				data-body-align="left"
+			>
+								{BEGIN supertop_block}
+<nav class="navbar navbar-default" 
+	data-location="supertop" id="form_supertop_{$pageid}" data-makeup="topbar" {$form_supertop} data-pageid="{$pageid}" >
+			 
+							 
+				<span data-cellId="supertop_c1" data-pageid="{$pageid}" class="r-align-left navbar-header" data-itemid="logo" {$item_logo}>
+				{BEGIN logo_block}
+	<A data-itemtype="logo" data-itemid="logo" {$item_logo} data-pageid="{$pageid}" class="navbar-brand" href="{$home_link}" data-pageid="{$pageid}" {$logo_hiddenattr}>
+		{$logo}
+	</A>
+{END logo_block}
+				<button data-pageid="1" type="button" class="navbar-toggle collapsed" data-runner-toggle="collapse" data-target="[data-mobile-controlled]">	
+					<span class="sr-only">Toggle navigation</span>	
+					<span class="icon-bar"></span>					
+				</button>				
+			</span>
+		 
+				<span data-cellId="supertop_c1" data-pageid="{$pageid}" class="r-align-left navbar-collapse" data-itemtype="menu" data-itemid="menu" {$item_menu} data-pageid="{$pageid}">
+				{$menu main horizontal}			</span>
+							 
+													</nav>
+{END supertop_block}
+					{$locking}
+			</div>	
+			<div data-body-align="left"  data-body-width="standard" class="r-body" data-resize-top="topbar" >
+				<div class="r-top">
+										</div>
+				<div class="r-content">
+										<div class="r-data-block" data-body-width="standard" >
+						
+										{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="topbar" {$form_above-grid} data-pageid="{$pageid}" >		
+	</div>		
+{END above-grid_block}
+							
+						<div class="r-grid">
+										{BEGIN grid_block}
+<table class="r-fluid r-form" data-location="grid" id="form_grid_{$pageid}" data-makeup="topbar" {$form_grid} data-pageid="{$pageid}" >
+						<tbody>
+			
+								<tr>
+									<td 
+	class="			"
+			 
+	data-cellId="grid_c1" data-pageid="{$pageid}">
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item" {$item_welcome_item} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="cambios_list.php">
+							<span class="glyphicon glyphicon-calendar"></span>Cambios					</a>
+	</div>
+
+				
+	<div class="bs-welcome-content" data-comment-len="19">
+		Cambios description	</div>
+	</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item1" {$item_welcome_item1} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="colores_list.php">
+							<span class="glyphicon glyphicon-headphones"></span>Colores					</a>
+	</div>
+
+				
+	<div class="bs-welcome-content" data-comment-len="19">
+		Colores description	</div>
+	</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item2" {$item_welcome_item2} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="dts_list.php">
+							<span class="glyphicon glyphicon-hand-right"></span>Dts					</a>
+	</div>
+
+				
+	<div class="bs-welcome-content" data-comment-len="15">
+		Dts description	</div>
+	</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item3" {$item_welcome_item3} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="estadios_list.php">
+							<span class="glyphicon glyphicon-calendar"></span>Estadios					</a>
+	</div>
+
+				
+	<div class="bs-welcome-content" data-comment-len="20">
+		Estadios description	</div>
+	</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item4" {$item_welcome_item4} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="goles_list.php">
+							<span class="glyphicon glyphicon-fire"></span>Goles					</a>
+	</div>
+
+				
+	<div class="bs-welcome-content" data-comment-len="17">
+		Goles description	</div>
+	</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item5" {$item_welcome_item5} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="partidos_list.php">
+							<span class="glyphicon glyphicon-tree-conifer"></span>Partidos					</a>
+	</div>
+
+		</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item6" {$item_welcome_item6} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="jugadores_list.php">
+							<span class="glyphicon glyphicon-tree-conifer"></span>Jugadores					</a>
+	</div>
+
+		</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item7" {$item_welcome_item7} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="posicion_list.php">
+							Posicion					</a>
+	</div>
+
+		</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item8" {$item_welcome_item8} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="selecciones_list.php">
+							Selecciones					</a>
+	</div>
+
+		</div>
+
+ 
+<div class="bs-welcome-item" data-itemtype="welcome_item" data-itemid="welcome_item9" {$item_welcome_item9} data-pageid="{$pageid}" data-page=".global_menu">
+	<div class="bs-welcome-header">
+		<a id="itemlink" href="tipodegol_list.php">
+							Tipodegol					</a>
+	</div>
+
+		</div>
+
+</td>
+							</tr>
+					
+					</tbody>
+				</table>
+{END grid_block}
+							</div>
+						
+														
+					</div>
+				</div>
+			</div>
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
