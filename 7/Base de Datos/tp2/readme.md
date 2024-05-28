@@ -41,12 +41,12 @@ h) Seleccinar los registros con "ciudad" "Neuquen"
 select NombreMarca,ciudad from marca
 where ciudad = 'Neuquen'
 
-i) Seleccionar 
+i) Seleccionar NombreCiudad de la tabla marcas cuando la ciudad empieza con la letra "s"
 select nombre,ciudad
 from marcas
 where ciudad LIKE 'S%'
 
-j)
+j) Actualizar la ciudad de Jujuy a Neuquen en la tabla marcas
 update marcas
 set ciudad = 'Neuquen'
 where ciudad = 'Jujuy'
