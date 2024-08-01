@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+#game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#word-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#letter-input {
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+}
+button {
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#guess-btn{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+#new-game-btn{
+    background-color: white;
+    color: black;
+}
+#hangman {
+    font-family: monospace;
+    white-space: pre;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
