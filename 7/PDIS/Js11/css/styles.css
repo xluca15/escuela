@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    flex-direction: row-reverse;
+}
+
+h1{
+    font-weight: 300;
+    color: yellow;
+}
+#game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#word-display {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#score-display{
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#guess-btn{
+    background-color: black;
+    color: blue;
+    border: 2px solid blue;
+}
+
+#letter-input {
+    background-color: black;
+    color: blue;
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+    border: 2px solid blue;
+}
+#letter-input:focus{
+    outline: none;
+}
+button {
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#guess-btn{
+    width: auto;
+    border-collapse: collapse;
+    border: 1px solid blue;
+    padding: 8px;
+}
+
+button.Jugar{
+    width: 13%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#hangman {
+    font-family: monospace;
+    white-space: pre;
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+#letters-container{
+    display: flex;
+    color: blue;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#timeLeft{
+    font-weight: 300;
+    color: blue;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
