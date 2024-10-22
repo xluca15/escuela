@@ -1,1 +1,0 @@
-Es un programa el cual te deja agregar, remover y mostrar a corredores de la formula 1 que hayas agregado vos previamente los cuales se van a guardar.

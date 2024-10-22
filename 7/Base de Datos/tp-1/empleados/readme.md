@@ -1,1 +1,0 @@
-El programa utiliza un menú interactivo que permite al usuario seleccionar la acción que desea realizar. Cada función se encuentra implementada de manera clara y concisa, utilizando los conceptos aprendidos en clase, como listas, diccionarios, condicionales y entradas de usuario.
