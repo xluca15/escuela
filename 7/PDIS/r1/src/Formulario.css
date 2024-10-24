@@ -1,0 +1,48 @@
+.formulario-simple {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(22, 32, 128, 0.363);
+    background-color: white;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    border: 2px solid #8f25e679;
+  }
+  
+  .formulario-simple h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .formulario-simple form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario-simple label {
+    margin-bottom: 5px;
+  }
+  
+  .formulario-simple input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .formulario-simple button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #7b3caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .bienvenida {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #31b1ec;
+  }

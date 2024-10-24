@@ -1,0 +1,29 @@
+.hola-mundo {
+    background: linear-gradient(to right, #4489f8,#9e44e7 , #8f25e6);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto;
+  }
+  
+  .hola-mundo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    animation: pulse 3s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
