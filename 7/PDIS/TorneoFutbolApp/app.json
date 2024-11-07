@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn2",
-    "slug": "rn2",
+    "name": "TorneoFutbolApp",
+    "slug": "TorneoFutbolApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
