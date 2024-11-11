@@ -5,7 +5,7 @@ import { Text } from '../components/Themed';
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bienvenido a Torneo Fútbol</Text>
+      <Text style={styles.title}>Bienvenido a Torneos de Barrio</Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Matches')}
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
+    color: '#000000',
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,

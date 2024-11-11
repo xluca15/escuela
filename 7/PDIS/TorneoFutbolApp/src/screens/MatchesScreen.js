@@ -3,8 +3,8 @@ import { View, StyleSheet, FlatList } from 'react-native';
 import { Text } from '../components/Themed';
 
 const DUMMY_MATCHES = [
-  { id: '1', homeTeam: 'Equipo A', awayTeam: 'Equipo B', date: '2023-05-15' },
-  { id: '2', homeTeam: 'Equipo C', awayTeam: 'Equipo D', date: '2023-05-16' },
+  { id: '1', homeTeam: 'Chacaritas fc', awayTeam: 'Sacachispas', date: '2023-05-15' },
+  { id: '2', homeTeam: 'Pisadinha fc', awayTeam: 'Hacha y tiza', date: '2023-05-16' },
 ];
 
 export default function MatchesScreen() {
@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   matchText: {
+    color: '#000000', 
     fontSize: 16,
     fontWeight: 'bold',
   },
