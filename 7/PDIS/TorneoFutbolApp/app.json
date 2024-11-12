@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TorneoFutbolApp",
-    "slug": "TorneoFutbolApp",
+    "name": "TorneoFutbol",
+    "slug": "torneofutbol",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,17 +11,28 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lnlopez.torneofutbol"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lnlopez.torneofutbol"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ff8b7d23-7a21-4148-9424-78c7423e5d35"
+      }
+    },
+    "owner": "lnlopez"
   }
 }
